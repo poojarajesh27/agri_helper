@@ -6,9 +6,9 @@ import psycopg2
 import time
 from psycopg2.extras import RealDictCursor
 import os
-from dotenv import load_dotenv 
+#from dotenv import load_dotenv 
 
-load_dotenv()
+#load_dotenv()
 
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
